@@ -37,11 +37,10 @@ nav ul {
   margin: 0;
   display: flex;
   padding-left: 0;
-  width: 400px;
+  width: 500px;
   align-items: center;
   height: 100%;
   justify-content: space-evenly;
-
 }
 
 nav ul li {
@@ -102,7 +101,7 @@ figcaption {
     width: 90%;
     height: 500px;
     background: url(../images/img-locations-background.webp) no-repeat center center;
-    margin: 40px auto;
+    margin: 40px auto 0 auto;
 }
 
 .location-box {
@@ -117,6 +116,20 @@ figcaption {
 .location-box h4 {
   font-weight: 200;
 } 
+
+#contact {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 20px;
+}
 
 
 
